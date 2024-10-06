@@ -9,9 +9,9 @@ class Solution:
             if price < min_price:
                 min_price = price
             else:
-                if price - min_price > max_profit:
-                    max_profit = price - min_price
-                # max_profit = max(max_profit, price-min_price)
+                profit = price - min_price
+                if profit > max_profit:
+                    max_profit = profit
         return max_profit
 
         
