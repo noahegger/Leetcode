@@ -8,10 +8,19 @@ class Solution:
         res = nums[0]
         max_sum = nums[0]
 
-        for i in range(1,len(nums)):
-            max_sum = max(max_sum+nums[i], nums[i])
-            res = max(max_sum, res)
-           
+        # for i in range(1,len(nums)):
+        #     max_sum = max(max_sum+nums[i], nums[i])
+        #     res = max(max_sum, res)
+        
+
+        for num in nums[1:]:
+            if max_sum < 0:
+                max_sum = num
+            else:
+                max_sum += num
+            if max_sum > res:
+                res = max_sum
+
         return res
 
         
