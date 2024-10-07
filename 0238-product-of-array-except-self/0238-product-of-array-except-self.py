@@ -1,17 +1,19 @@
+# I used 3 array initially
+# Can I use only one?
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         n = len(nums)
-        pre = [1]*n
-        suf = [1]*n
-        product = [1]*n
+        pre = 1
+        suf = 1
+
+        res = [1]*n
+
         for i in range(n):
-            if i == 0:
-                pre[i] = 1
-                suf[n-i-1] = 1
-            else:
-                pre[i] = pre[i-1]*nums[i-1]
-                suf[n-i-1] = nums[n-i]*suf[n-i]
-            
-        for i in range(n):
-            product[i] = pre[i]*suf[i]
-        return product
+            res[i] *= pre
+            pre *= nums[i]
+
+        for j in range(n):
+            res[n-1-j] *= suf
+            suf *= nums[n-j-1]
+        
+        return res
