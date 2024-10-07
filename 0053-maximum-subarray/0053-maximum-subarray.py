@@ -14,10 +14,9 @@ class Solution:
         
 
         for num in nums[1:]:
-            if max_sum < 0:
+            max_sum+=num
+            if num > max_sum:
                 max_sum = num
-            else:
-                max_sum += num
             if max_sum > res:
                 res = max_sum
 
