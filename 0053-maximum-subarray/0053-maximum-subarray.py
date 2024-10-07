@@ -10,7 +10,8 @@ class Solution:
 
         for i in range(1,len(nums)):
             max_sum = max(max_sum+nums[i], nums[i])
-            res = max(res, max_sum)
+            res = max(max_sum, res)
+           
         return res
 
         
