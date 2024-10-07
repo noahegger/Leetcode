@@ -6,12 +6,7 @@ class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         
         res = nums[0]
-        max_sum = nums[0]
-
-        # for i in range(1,len(nums)):
-        #     max_sum = max(max_sum+nums[i], nums[i])
-        #     res = max(max_sum, res)
-        
+        max_sum = res
 
         for num in nums[1:]:
             max_sum+=num
