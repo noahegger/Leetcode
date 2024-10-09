@@ -1,6 +1,3 @@
-# If no zeros, and even # of negatives, max product will be the entire array
-# If no zeros, off # of negatives, need to split sub arrays on negatives and compare
-# If zeros, need to split sub arrays on zeros, and then check negative cases...
 
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
