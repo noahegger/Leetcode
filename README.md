@@ -50,6 +50,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/noahegger/Leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/noahegger/Leetcode/tree/master/0015-3sum) |
+| [0125-valid-palindrome](https://github.com/noahegger/Leetcode/tree/master/0125-valid-palindrome) |
 ## Greedy
 |  |
 | ------- |
@@ -73,5 +74,6 @@
 ## String
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/noahegger/Leetcode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/noahegger/Leetcode/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
