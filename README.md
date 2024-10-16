@@ -23,6 +23,7 @@
 | [0217-contains-duplicate](https://github.com/noahegger/Leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/noahegger/Leetcode/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/noahegger/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/noahegger/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -67,6 +68,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/noahegger/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0239-sliding-window-maximum](https://github.com/noahegger/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/noahegger/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/noahegger/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -82,4 +84,5 @@
 | [0125-valid-palindrome](https://github.com/noahegger/Leetcode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/noahegger/Leetcode/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/noahegger/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/noahegger/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 <!---LeetCode Topics End-->
