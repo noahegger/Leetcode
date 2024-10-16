@@ -35,9 +35,8 @@ class Solution:
                 count_map[s[r]] += 1
 
             if r - l + 1 > len(p):
-                # print(r, l)
                 count_map[s[l]] -= 1
-                
+                # Need to remove the key from map if count is 0 for comparison
                 if count_map[s[l]] == 0:
                     count_map.pop(s[l])
                 l += 1
