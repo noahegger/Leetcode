@@ -33,13 +33,9 @@ class Solution:
             
             condition = check_condition(seen_map, t_map)
             while condition:
-                # print(r, l)
-                # print(min_indices[1] - min_indices[0])
-                # print(r-l)
-                # print(min_indices)
                 if min_indices is None or r-l+1 <= min_indices[1] - min_indices[0]:
                     min_indices = (l, r+1)
-                    # print(s[min_indices[0]:min_indices[1]]) 
+
                 if s[l] in seen_map:
                     seen_map[s[l]] -= 1
                 l += 1
