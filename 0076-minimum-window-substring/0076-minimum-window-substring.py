@@ -11,8 +11,6 @@ class Solution:
         # continue expanding right
         # Return "" if condition never met
 
-        # s = s.lower()
-        # t = t.lower()
         if len(t) > len(s):
             return ""
 
@@ -39,8 +37,7 @@ class Solution:
                 if min_indices is None or r-l+1 <= min_indices[1] - min_indices[0]:
                     min_indices = (l, r+1)
 
-                if s[l] in seen_map:
-                    seen_map[s[l]] -= 1
+                seen_map[s[l]] -= 1
                 l += 1
                 condition = check_condition(seen_map, t_map)
             
