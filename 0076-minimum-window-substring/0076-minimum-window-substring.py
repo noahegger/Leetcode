@@ -1,7 +1,10 @@
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
         def check_condition(seen_map, t_map):
-            return all(char in seen_map and seen_map[char] >= count for char, count in t_map.items())
+            for char, count in t_map.items():
+                if char not in seen_map or seen_map[char] < t_map[char]:
+                    return False
+            return True
 
         # Start expanding right until all of t is in s
         # Once window is found, shrink from the left until condition no longer satisfied
