@@ -13,10 +13,8 @@ class Solution:
         for c in ransomNote:
             if c not in magazine:
                 return False
-            if c not in ransom_map:
-                ransom_map[c] = 1
+            if magazine_map[c] == 0:
+                return False
             else:
-                ransom_map[c] += 1
-                if ransom_map[c] > magazine_map[c]:
-                    return False
+                magazine_map[c] -= 1
         return True
