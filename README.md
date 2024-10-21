@@ -9,6 +9,7 @@
 | [0011-container-with-most-water](https://github.com/noahegger/Leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/noahegger/Leetcode/tree/master/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/noahegger/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
+| [0041-first-missing-positive](https://github.com/noahegger/Leetcode/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/noahegger/Leetcode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/noahegger/Leetcode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/noahegger/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -21,6 +22,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/noahegger/Leetcode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/noahegger/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0041-first-missing-positive](https://github.com/noahegger/Leetcode/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/noahegger/Leetcode/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/noahegger/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0217-contains-duplicate](https://github.com/noahegger/Leetcode/tree/master/0217-contains-duplicate) |
