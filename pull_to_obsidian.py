@@ -1,4 +1,5 @@
 import os
+from datetime import datetime
 
 # Path to GitHub repo
 repo_path = "/Users/noahegger/git/Leetcode"
@@ -8,7 +9,7 @@ obsidian_vault_path = (
 )
 
 
-# Function to format the content
+# Function to format the content with YAML front matter for properties
 def format_leetcode_file(problem_name, tags):
     readme_path = os.path.join(repo_path, problem_name, "README.md")
     solution_path = os.path.join(repo_path, problem_name, f"{problem_name}.py")
@@ -23,37 +24,48 @@ def format_leetcode_file(problem_name, tags):
     with open(solution_path, "r") as f:
         solution_code = f.read()
 
-    # Create Markdown content without the title
-    markdown_content = f"## Tags\n{tags}\n\n"  # Adds tags section
-    markdown_content += f"## Problem Description\n{problem_description}\n\n"
-    markdown_content += "## My Solution\n```python\n" + solution_code + "\n```\n"
+    # Get a human-readable date from the file modification time
+    mod_time = os.path.getmtime(readme_path)
+    formatted_date = datetime.fromtimestamp(mod_time).strftime("%Y-%m-%d")
+
+    # Create Markdown content with Properties section
+    markdown_content = (
+        f"---\n"
+        f"title: {problem_name}\n"
+        f"tags: [{tags}]  # Add your tags here, separated by commas\n"
+        f"difficulty:   # Customize this or make it dynamic\n"
+        f"date: {formatted_date}\n"
+        f"---\n\n"
+        f"## Problem Description\n"
+        f"{problem_description}\n\n"
+        f"## My Solution\n"
+        f"```python\n"
+        f"{solution_code}\n"
+        f"```\n"
+    )
 
     return markdown_content
 
 
+# Function to save the Markdown file, overwriting if it already exists
 def save_to_obsidian(problem_name, content):
     obsidian_file_path = os.path.join(obsidian_vault_path, f"{problem_name}.md")
 
-    # Write content to the file if it doesn't already exist
-    if not os.path.exists(obsidian_file_path):
-        with open(obsidian_file_path, "w") as f:
-            f.write(content)
-        print(f"Saved {problem_name} to {obsidian_file_path}.")
-    else:
-        print(f"{problem_name} already exists in Obsidian. Skipping.")
+    # Create the directory if it does not exist
+    os.makedirs(obsidian_vault_path, exist_ok=True)
+
+    # Write content to the file, overwriting if it already exists
+    with open(obsidian_file_path, "w") as f:
+        f.write(content)
+    print(f"Saved {problem_name} to {obsidian_file_path}.")
 
 
 # Main execution
 if __name__ == "__main__":
     for folder in os.listdir(repo_path):
         if os.path.isdir(os.path.join(repo_path, folder)):
-            # Prompt user to add tags for each new problem
-            tags_input = input(
-                f"Enter tags for {folder} (comma-separated, use underscores for multi-word tags): "
-            )
-            tags = " ".join(
-                f"#{tag.strip().replace(' ', '_')}" for tag in tags_input.split(",")
-            )  # Formats tags with underscores for multi-word
+            # Default placeholder for tags
+            tags = "example_tag"  # Change this or make it dynamic as needed
 
             markdown_content = format_leetcode_file(folder, tags)
             if markdown_content:
