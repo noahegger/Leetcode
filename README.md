@@ -36,6 +36,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/noahegger/Leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0022-generate-parentheses](https://github.com/noahegger/Leetcode/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/noahegger/Leetcode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/noahegger/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/noahegger/Leetcode/tree/master/0152-maximum-product-subarray) |
@@ -94,6 +95,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/noahegger/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/noahegger/Leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0022-generate-parentheses](https://github.com/noahegger/Leetcode/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/noahegger/Leetcode/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/noahegger/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/noahegger/Leetcode/tree/master/0125-valid-palindrome) |
@@ -133,4 +135,8 @@
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/noahegger/Leetcode/tree/master/0200-number-of-islands) |
+## Backtracking
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/noahegger/Leetcode/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
