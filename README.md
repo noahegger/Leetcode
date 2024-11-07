@@ -12,6 +12,7 @@
 | [0041-first-missing-positive](https://github.com/noahegger/Leetcode/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/noahegger/Leetcode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/noahegger/Leetcode/tree/master/0053-maximum-subarray) |
+| [0078-subsets](https://github.com/noahegger/Leetcode/tree/master/0078-subsets) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/noahegger/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/noahegger/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0200-number-of-islands](https://github.com/noahegger/Leetcode/tree/master/0200-number-of-islands) |
@@ -140,4 +141,9 @@
 | ------- |
 | [0022-generate-parentheses](https://github.com/noahegger/Leetcode/tree/master/0022-generate-parentheses) |
 | [0077-combinations](https://github.com/noahegger/Leetcode/tree/master/0077-combinations) |
+| [0078-subsets](https://github.com/noahegger/Leetcode/tree/master/0078-subsets) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/noahegger/Leetcode/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
