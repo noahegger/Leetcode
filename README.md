@@ -10,6 +10,7 @@
 | [0015-3sum](https://github.com/noahegger/Leetcode/tree/master/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/noahegger/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0041-first-missing-positive](https://github.com/noahegger/Leetcode/tree/master/0041-first-missing-positive) |
+| [0046-permutations](https://github.com/noahegger/Leetcode/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/noahegger/Leetcode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/noahegger/Leetcode/tree/master/0053-maximum-subarray) |
 | [0078-subsets](https://github.com/noahegger/Leetcode/tree/master/0078-subsets) |
@@ -144,6 +145,7 @@
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/noahegger/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/noahegger/Leetcode/tree/master/0022-generate-parentheses) |
+| [0046-permutations](https://github.com/noahegger/Leetcode/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/noahegger/Leetcode/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/noahegger/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/noahegger/Leetcode/tree/master/0090-subsets-ii) |
