@@ -1,41 +1,52 @@
+from typing import List
+from collections import defaultdict
+
 class Solution:
     def solveSudoku(self, board: List[List[str]]) -> None:
-        """
-        Do not return anything, modify board in-place instead.
-        """
-        def is_valid(board, r, c, num):
-            # Check the row
-            for i in range(9):
-                if board[r][i] == num:
-                    return False
-            
-            # Check the column
-            for i in range(9):
-                if board[i][c] == num:
-                    return False
-            
-            # Check the 3x3 subgrid
-            start_row, start_col = 3 * (r // 3), 3 * (c // 3)
-            for i in range(start_row, start_row + 3):
-                for j in range(start_col, start_col + 3):
-                    if board[i][j] == num:
-                        return False
-            
+        # Initialize sets for rows, columns, and squares
+        rows = defaultdict(set)
+        cols = defaultdict(set)
+        squares = defaultdict(set)  # Key: (r//3, c//3)
+
+        # Populate the sets based on the initial board state
+        for r in range(9):
+            for c in range(9):
+                if board[r][c] != ".":
+                    num = board[r][c]
+                    rows[r].add(num)
+                    cols[c].add(num)
+                    squares[(r // 3, c // 3)].add(num)
+
+        # Helper function to check if placing num is valid
+        def isValid(row, col, num) -> bool:
+            if (num in rows[row] or
+                num in cols[col] or
+                num in squares[(row // 3, col // 3)]):
+                return False
             return True
 
-        def backtrack():
-            # Find the next empty square
+        # Recursive backtracking function
+        def solve():
             for r in range(9):
                 for c in range(9):
                     if board[r][c] == ".":
-                        # Try placing each number from 1 to 9
                         for num in map(str, range(1, 10)):
-                            if is_valid(board, r, c, num):
+                            if isValid(r, c, num):
+                                # Place the number
                                 board[r][c] = num
-                                if backtrack():
+                                rows[r].add(num)
+                                cols[c].add(num)
+                                squares[(r // 3, c // 3)].add(num)
+
+                                if solve():  # Recursively try to solve with this placement
                                     return True
+
+                                # If it didn’t work out, reset (backtrack)
                                 board[r][c] = "."
-                        return False
+                                rows[r].remove(num)
+                                cols[c].remove(num)
+                                squares[(r // 3, c // 3)].remove(num)
+                        return False  # If no number works here, backtrack
             return True
-            
-        backtrack()
+
+        solve()
