@@ -22,6 +22,7 @@
 | [0217-contains-duplicate](https://github.com/noahegger/Leetcode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/noahegger/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/noahegger/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0792-binary-search](https://github.com/noahegger/Leetcode/tree/master/0792-binary-search) |
 ## Hash Table
 |  |
 | ------- |
@@ -65,6 +66,7 @@
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/noahegger/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
+| [0792-binary-search](https://github.com/noahegger/Leetcode/tree/master/0792-binary-search) |
 ## Two Pointers
 |  |
 | ------- |
