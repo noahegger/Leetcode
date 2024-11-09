@@ -19,24 +19,16 @@ class Solution:
                     square_r, square_c = r // 3, c // 3
                     squares[(square_r, square_c)].add(num)
         
-        # def isValid(row, col, num) -> bool:
-        #     if (num in rows[row] or
-        #         num in cols[col] or
-        #         num in squares[(row//3,col//3)]):
-        #         return False
-        
         def valid_set(row, col) -> set:
             row_set = rows[row]
             col_set = cols[col]
             square_set = squares[(row//3,col//3)]
             return full_set.difference(row_set.union(col_set).union(square_set))
 
-
         def solve():
             for r in range(9):
                 for c in range(9):
                     if board[r][c] == ".":
-                        # for num in map(str, range(1,10)):
                         for num in valid_set(r, c):
                             board[r][c] = num
                             rows[r].add(num)
