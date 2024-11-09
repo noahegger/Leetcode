@@ -6,47 +6,50 @@ class Solution:
         # Initialize sets for rows, columns, and squares
         rows = defaultdict(set)
         cols = defaultdict(set)
-        squares = defaultdict(set)  # Key: (r//3, c//3)
+        squares = defaultdict(set)
 
-        # Populate the sets based on the initial board state
+        full_set = set(map(str, range(1,10)))
+
         for r in range(9):
             for c in range(9):
                 if board[r][c] != ".":
                     num = board[r][c]
                     rows[r].add(num)
                     cols[c].add(num)
-                    squares[(r // 3, c // 3)].add(num)
+                    square_r, square_c = r // 3, c // 3
+                    squares[(square_r, square_c)].add(num)
+        
+        # def isValid(row, col, num) -> bool:
+        #     if (num in rows[row] or
+        #         num in cols[col] or
+        #         num in squares[(row//3,col//3)]):
+        #         return False
+        
+        def valid_set(row, col) -> set:
+            row_set = rows[row]
+            col_set = cols[col]
+            square_set = squares[(row//3,col//3)]
+            return full_set.difference(row_set.union(col_set).union(square_set))
 
-        # Helper function to check if placing num is valid
-        def isValid(row, col, num) -> bool:
-            if (num in rows[row] or
-                num in cols[col] or
-                num in squares[(row // 3, col // 3)]):
-                return False
-            return True
 
-        # Recursive backtracking function
         def solve():
             for r in range(9):
                 for c in range(9):
                     if board[r][c] == ".":
-                        for num in map(str, range(1, 10)):
-                            if isValid(r, c, num):
-                                # Place the number
-                                board[r][c] = num
-                                rows[r].add(num)
-                                cols[c].add(num)
-                                squares[(r // 3, c // 3)].add(num)
+                        # for num in map(str, range(1,10)):
+                        for num in valid_set(r, c):
+                            board[r][c] = num
+                            rows[r].add(num)
+                            cols[c].add(num)
+                            squares[(r//3, c//3)].add(num)
 
-                                if solve():  # Recursively try to solve with this placement
-                                    return True
-
-                                # If it didn’t work out, reset (backtrack)
-                                board[r][c] = "."
-                                rows[r].remove(num)
-                                cols[c].remove(num)
-                                squares[(r // 3, c // 3)].remove(num)
-                        return False  # If no number works here, backtrack
+                            if solve():
+                                return True
+                            board[r][c] = "."
+                            rows[r].remove(num)
+                            cols[c].remove(num)
+                            squares[(r//3, c//3)].remove(num)
+                        return False
             return True
-
         solve()
+                            
