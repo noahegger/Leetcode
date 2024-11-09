@@ -3,7 +3,6 @@ from collections import defaultdict
 
 class Solution:
     def solveSudoku(self, board: List[List[str]]) -> None:
-        # Initialize sets for rows, columns, and squares
         rows = defaultdict(set)
         cols = defaultdict(set)
         squares = defaultdict(set)
