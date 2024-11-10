@@ -14,6 +14,7 @@
 | [0046-permutations](https://github.com/noahegger/Leetcode/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/noahegger/Leetcode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/noahegger/Leetcode/tree/master/0053-maximum-subarray) |
+| [0074-search-a-2d-matrix](https://github.com/noahegger/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/noahegger/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/noahegger/Leetcode/tree/master/0090-subsets-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/noahegger/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -68,6 +69,7 @@
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/noahegger/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
+| [0074-search-a-2d-matrix](https://github.com/noahegger/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/noahegger/Leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0792-binary-search](https://github.com/noahegger/Leetcode/tree/master/0792-binary-search) |
 ## Two Pointers
@@ -148,6 +150,7 @@
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/noahegger/Leetcode/tree/master/0037-sudoku-solver) |
+| [0074-search-a-2d-matrix](https://github.com/noahegger/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/noahegger/Leetcode/tree/master/0200-number-of-islands) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/noahegger/Leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 ## Backtracking
