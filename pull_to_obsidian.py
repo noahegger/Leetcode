@@ -47,14 +47,21 @@ def format_leetcode_file(problem_name, tags):
     return markdown_content
 
 
-# Function to save the Markdown file, overwriting if it already exists
-def save_to_obsidian(problem_name, content):
+# Function to save the Markdown file, with an overwrite toggle
+def save_to_obsidian(problem_name, content, overwrite_existing=False):
     obsidian_file_path = os.path.join(obsidian_vault_path, f"{problem_name}.md")
 
     # Create the directory if it does not exist
     os.makedirs(obsidian_vault_path, exist_ok=True)
 
-    # Write content to the file, overwriting if it already exists
+    # Check if file already exists and skip if not overwriting
+    if os.path.exists(obsidian_file_path) and not overwrite_existing:
+        print(
+            f"File for {problem_name} already exists. Skipping due to overwrite_existing=False."
+        )
+        return
+
+    # Write content to the file
     with open(obsidian_file_path, "w") as f:
         f.write(content)
     print(f"Saved {problem_name} to {obsidian_file_path}.")
@@ -62,6 +69,8 @@ def save_to_obsidian(problem_name, content):
 
 # Main execution
 if __name__ == "__main__":
+    overwrite_existing = False  # Set to True if you want to overwrite existing files
+
     for folder in os.listdir(repo_path):
         if os.path.isdir(os.path.join(repo_path, folder)):
             # Default placeholder for tags
@@ -69,4 +78,6 @@ if __name__ == "__main__":
 
             markdown_content = format_leetcode_file(folder, tags)
             if markdown_content:
-                save_to_obsidian(folder, markdown_content)
+                save_to_obsidian(
+                    folder, markdown_content, overwrite_existing=overwrite_existing
+                )
