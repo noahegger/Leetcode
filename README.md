@@ -19,6 +19,7 @@
 | [0090-subsets-ii](https://github.com/noahegger/Leetcode/tree/master/0090-subsets-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/noahegger/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/noahegger/Leetcode/tree/master/0152-maximum-product-subarray) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/noahegger/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0200-number-of-islands](https://github.com/noahegger/Leetcode/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/noahegger/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/noahegger/Leetcode/tree/master/0217-contains-duplicate) |
@@ -73,6 +74,7 @@
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/noahegger/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0074-search-a-2d-matrix](https://github.com/noahegger/Leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/noahegger/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/noahegger/Leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0792-binary-search](https://github.com/noahegger/Leetcode/tree/master/0792-binary-search) |
 ## Two Pointers
