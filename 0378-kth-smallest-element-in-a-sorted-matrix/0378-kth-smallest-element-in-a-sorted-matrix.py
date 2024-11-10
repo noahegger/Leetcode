@@ -30,11 +30,14 @@ class Solution:
 
         # Min-Heap Approach
         min_heap = []
-        for r in range(min(k, n)):
-            heapq.heappush(min_heap, (matrix[r][0], r, 0))
+        for r in range(min(k, n)): #initialize heap with min number of rows needed
+            heapq.heappush(min_heap, (matrix[r][0], r, 0)) #add first column of each row
         
         for _ in range(k):
-            element, r, c = heapq.heappop(min_heap)
+            element, r, c = heapq.heappop(min_heap) 
+            # remove the minimum element and push the subsequent column
+            # if the column pushed is greater than an existing, we will automatically go to the next row
             if c+1 < n:
                 heapq.heappush(min_heap, (matrix[r][c+1], r, c+1))
+            # after k times, we will have kth smallest
         return element
