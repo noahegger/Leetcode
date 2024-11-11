@@ -14,6 +14,7 @@
 | [0046-permutations](https://github.com/noahegger/Leetcode/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/noahegger/Leetcode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/noahegger/Leetcode/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/noahegger/Leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/noahegger/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/noahegger/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/noahegger/Leetcode/tree/master/0078-subsets) |
@@ -158,6 +159,7 @@
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/noahegger/Leetcode/tree/master/0037-sudoku-solver) |
+| [0054-spiral-matrix](https://github.com/noahegger/Leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/noahegger/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/noahegger/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/noahegger/Leetcode/tree/master/0200-number-of-islands) |
@@ -181,4 +183,8 @@
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/noahegger/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+## Simulation
+|  |
+| ------- |
+| [0054-spiral-matrix](https://github.com/noahegger/Leetcode/tree/master/0054-spiral-matrix) |
 <!---LeetCode Topics End-->
