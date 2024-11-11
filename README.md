@@ -14,6 +14,7 @@
 | [0046-permutations](https://github.com/noahegger/Leetcode/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/noahegger/Leetcode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/noahegger/Leetcode/tree/master/0053-maximum-subarray) |
+| [0073-set-matrix-zeroes](https://github.com/noahegger/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/noahegger/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/noahegger/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/noahegger/Leetcode/tree/master/0090-subsets-ii) |
@@ -36,6 +37,7 @@
 | [0037-sudoku-solver](https://github.com/noahegger/Leetcode/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/noahegger/Leetcode/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/noahegger/Leetcode/tree/master/0049-group-anagrams) |
+| [0073-set-matrix-zeroes](https://github.com/noahegger/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/noahegger/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0146-lru-cache](https://github.com/noahegger/Leetcode/tree/master/0146-lru-cache) |
 | [0217-contains-duplicate](https://github.com/noahegger/Leetcode/tree/master/0217-contains-duplicate) |
@@ -156,6 +158,7 @@
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/noahegger/Leetcode/tree/master/0037-sudoku-solver) |
+| [0073-set-matrix-zeroes](https://github.com/noahegger/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/noahegger/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/noahegger/Leetcode/tree/master/0200-number-of-islands) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/noahegger/Leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
