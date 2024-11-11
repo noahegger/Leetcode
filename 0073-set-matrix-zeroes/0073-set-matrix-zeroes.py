@@ -8,9 +8,6 @@ class Solution:
         first_row_contains_zero = any(matrix[0][j] == 0 for j in range(cols))
         first_col_contains_zero = any(matrix[i][0] == 0 for i in range(rows))
 
-        # print(first_row_contains_zero)
-        # print(first_col_contains_zero)
-
         # loop through matrix and set elements in first row and first column 
         # to zero (almost like a projection onto the boundary)
         for i in range(1, rows):
