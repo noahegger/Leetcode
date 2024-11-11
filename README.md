@@ -12,6 +12,7 @@
 | [0037-sudoku-solver](https://github.com/noahegger/Leetcode/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/noahegger/Leetcode/tree/master/0041-first-missing-positive) |
 | [0046-permutations](https://github.com/noahegger/Leetcode/tree/master/0046-permutations) |
+| [0048-rotate-image](https://github.com/noahegger/Leetcode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/noahegger/Leetcode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/noahegger/Leetcode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/noahegger/Leetcode/tree/master/0054-spiral-matrix) |
@@ -159,6 +160,7 @@
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/noahegger/Leetcode/tree/master/0037-sudoku-solver) |
+| [0048-rotate-image](https://github.com/noahegger/Leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/noahegger/Leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/noahegger/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/noahegger/Leetcode/tree/master/0074-search-a-2d-matrix) |
@@ -187,4 +189,8 @@
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/noahegger/Leetcode/tree/master/0054-spiral-matrix) |
+## Math
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/noahegger/Leetcode/tree/master/0048-rotate-image) |
 <!---LeetCode Topics End-->
