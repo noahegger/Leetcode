@@ -138,6 +138,7 @@
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/noahegger/Leetcode/tree/master/0146-lru-cache) |
+| [0206-reverse-linked-list](https://github.com/noahegger/Leetcode/tree/master/0206-reverse-linked-list) |
 ## Design
 |  |
 | ------- |
@@ -196,4 +197,8 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/noahegger/Leetcode/tree/master/0048-rotate-image) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/noahegger/Leetcode/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
