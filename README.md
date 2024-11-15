@@ -102,6 +102,7 @@
 ## Queue
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/noahegger/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0239-sliding-window-maximum](https://github.com/noahegger/Leetcode/tree/master/0239-sliding-window-maximum) |
 ## Sliding Window
 |  |
@@ -154,6 +155,7 @@
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/noahegger/Leetcode/tree/master/0146-lru-cache) |
+| [0225-implement-stack-using-queues](https://github.com/noahegger/Leetcode/tree/master/0225-implement-stack-using-queues) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -222,4 +224,5 @@
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/noahegger/Leetcode/tree/master/0143-reorder-list) |
+| [0225-implement-stack-using-queues](https://github.com/noahegger/Leetcode/tree/master/0225-implement-stack-using-queues) |
 <!---LeetCode Topics End-->
