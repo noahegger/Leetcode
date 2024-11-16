@@ -31,6 +31,7 @@
 | [0239-sliding-window-maximum](https://github.com/noahegger/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/noahegger/Leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0792-binary-search](https://github.com/noahegger/Leetcode/tree/master/0792-binary-search) |
+| [0860-design-circular-queue](https://github.com/noahegger/Leetcode/tree/master/0860-design-circular-queue) |
 ## Hash Table
 |  |
 | ------- |
@@ -104,6 +105,7 @@
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/noahegger/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0239-sliding-window-maximum](https://github.com/noahegger/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0860-design-circular-queue](https://github.com/noahegger/Leetcode/tree/master/0860-design-circular-queue) |
 ## Sliding Window
 |  |
 | ------- |
@@ -151,11 +153,13 @@
 | [0143-reorder-list](https://github.com/noahegger/Leetcode/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/noahegger/Leetcode/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/noahegger/Leetcode/tree/master/0206-reverse-linked-list) |
+| [0860-design-circular-queue](https://github.com/noahegger/Leetcode/tree/master/0860-design-circular-queue) |
 ## Design
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/noahegger/Leetcode/tree/master/0146-lru-cache) |
 | [0225-implement-stack-using-queues](https://github.com/noahegger/Leetcode/tree/master/0225-implement-stack-using-queues) |
+| [0860-design-circular-queue](https://github.com/noahegger/Leetcode/tree/master/0860-design-circular-queue) |
 ## Doubly-Linked List
 |  |
 | ------- |
