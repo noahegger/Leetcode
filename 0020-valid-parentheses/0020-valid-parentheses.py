@@ -15,15 +15,8 @@ class Solution:
             if char == "(" or char == "{" or char == "[":
                 self.stack.append(char)
             else:
-                if len(self.stack) == 0:
+                if not self.stack or char != char_map[self.stack[-1]]:
                     return False
-                if char != char_map[self.stack[-1]]:
-                    return False
-                else:
-                    self.stack.pop()
+                self.stack.pop()
         
-        if len(self.stack) == 0:
-            return True
-        else:
-            return False
-        
+        return not self.stack
