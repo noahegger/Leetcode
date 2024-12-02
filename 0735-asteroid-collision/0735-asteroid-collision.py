@@ -10,8 +10,7 @@ class Solution:
                     continue
                 elif abs(a) == stack[-1]:
                     stack.pop()
-                print(stack)
-                print(a)
+
                 break
             else:
                 stack.append(a)
