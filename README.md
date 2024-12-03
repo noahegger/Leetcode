@@ -22,6 +22,7 @@
 | [0078-subsets](https://github.com/noahegger/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/noahegger/Leetcode/tree/master/0090-subsets-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/noahegger/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/noahegger/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/noahegger/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/noahegger/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0200-number-of-islands](https://github.com/noahegger/Leetcode/tree/master/0200-number-of-islands) |
@@ -220,6 +221,7 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/noahegger/Leetcode/tree/master/0048-rotate-image) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/noahegger/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 ## Recursion
 |  |
 | ------- |
@@ -235,6 +237,7 @@
 | ------- |
 | [0020-valid-parentheses](https://github.com/noahegger/Leetcode/tree/master/0020-valid-parentheses) |
 | [0143-reorder-list](https://github.com/noahegger/Leetcode/tree/master/0143-reorder-list) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/noahegger/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/noahegger/Leetcode/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/noahegger/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/noahegger/Leetcode/tree/master/0232-implement-queue-using-stacks) |
