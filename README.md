@@ -139,6 +139,7 @@
 | [0049-group-anagrams](https://github.com/noahegger/Leetcode/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/noahegger/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/noahegger/Leetcode/tree/master/0125-valid-palindrome) |
+| [0224-basic-calculator](https://github.com/noahegger/Leetcode/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/noahegger/Leetcode/tree/master/0242-valid-anagram) |
 | [0383-ransom-note](https://github.com/noahegger/Leetcode/tree/master/0383-ransom-note) |
 | [0424-longest-repeating-character-replacement](https://github.com/noahegger/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
@@ -222,12 +223,14 @@
 | ------- |
 | [0048-rotate-image](https://github.com/noahegger/Leetcode/tree/master/0048-rotate-image) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/noahegger/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0224-basic-calculator](https://github.com/noahegger/Leetcode/tree/master/0224-basic-calculator) |
 ## Recursion
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/noahegger/Leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0143-reorder-list](https://github.com/noahegger/Leetcode/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/noahegger/Leetcode/tree/master/0206-reverse-linked-list) |
+| [0224-basic-calculator](https://github.com/noahegger/Leetcode/tree/master/0224-basic-calculator) |
 ## Merge Sort
 |  |
 | ------- |
@@ -239,6 +242,7 @@
 | [0143-reorder-list](https://github.com/noahegger/Leetcode/tree/master/0143-reorder-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/noahegger/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/noahegger/Leetcode/tree/master/0155-min-stack) |
+| [0224-basic-calculator](https://github.com/noahegger/Leetcode/tree/master/0224-basic-calculator) |
 | [0225-implement-stack-using-queues](https://github.com/noahegger/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/noahegger/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0735-asteroid-collision](https://github.com/noahegger/Leetcode/tree/master/0735-asteroid-collision) |
