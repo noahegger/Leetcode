@@ -33,6 +33,7 @@
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/noahegger/Leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0496-next-greater-element-i](https://github.com/noahegger/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0735-asteroid-collision](https://github.com/noahegger/Leetcode/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/noahegger/Leetcode/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/noahegger/Leetcode/tree/master/0792-binary-search) |
 | [0860-design-circular-queue](https://github.com/noahegger/Leetcode/tree/master/0860-design-circular-queue) |
 ## Hash Table
@@ -252,8 +253,10 @@
 | [0232-implement-queue-using-stacks](https://github.com/noahegger/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0496-next-greater-element-i](https://github.com/noahegger/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0735-asteroid-collision](https://github.com/noahegger/Leetcode/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/noahegger/Leetcode/tree/master/0739-daily-temperatures) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/noahegger/Leetcode/tree/master/0496-next-greater-element-i) |
+| [0739-daily-temperatures](https://github.com/noahegger/Leetcode/tree/master/0739-daily-temperatures) |
 <!---LeetCode Topics End-->
