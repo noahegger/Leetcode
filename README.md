@@ -12,6 +12,7 @@
 | [0036-valid-sudoku](https://github.com/noahegger/Leetcode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/noahegger/Leetcode/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/noahegger/Leetcode/tree/master/0041-first-missing-positive) |
+| [0042-trapping-rain-water](https://github.com/noahegger/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/noahegger/Leetcode/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/noahegger/Leetcode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/noahegger/Leetcode/tree/master/0049-group-anagrams) |
@@ -61,6 +62,7 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/noahegger/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/noahegger/Leetcode/tree/master/0022-generate-parentheses) |
+| [0042-trapping-rain-water](https://github.com/noahegger/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/noahegger/Leetcode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/noahegger/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/noahegger/Leetcode/tree/master/0152-maximum-product-subarray) |
@@ -98,6 +100,7 @@
 | [0011-container-with-most-water](https://github.com/noahegger/Leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/noahegger/Leetcode/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/noahegger/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0042-trapping-rain-water](https://github.com/noahegger/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/noahegger/Leetcode/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/noahegger/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/noahegger/Leetcode/tree/master/0143-reorder-list) |
@@ -244,6 +247,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/noahegger/Leetcode/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/noahegger/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0143-reorder-list](https://github.com/noahegger/Leetcode/tree/master/0143-reorder-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/noahegger/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/noahegger/Leetcode/tree/master/0155-min-stack) |
@@ -257,6 +261,7 @@
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/noahegger/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/noahegger/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/noahegger/Leetcode/tree/master/0739-daily-temperatures) |
 <!---LeetCode Topics End-->
