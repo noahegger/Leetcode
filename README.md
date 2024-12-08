@@ -66,6 +66,7 @@
 | [0042-trapping-rain-water](https://github.com/noahegger/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/noahegger/Leetcode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/noahegger/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/noahegger/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0152-maximum-product-subarray](https://github.com/noahegger/Leetcode/tree/master/0152-maximum-product-subarray) |
 ## Prefix Sum
 |  |
@@ -184,6 +185,7 @@
 | ------- |
 | [0100-same-tree](https://github.com/noahegger/Leetcode/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/noahegger/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/noahegger/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0200-number-of-islands](https://github.com/noahegger/Leetcode/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/noahegger/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/noahegger/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -279,6 +281,7 @@
 | ------- |
 | [0100-same-tree](https://github.com/noahegger/Leetcode/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/noahegger/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/noahegger/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0226-invert-binary-tree](https://github.com/noahegger/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/noahegger/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 ## Binary Tree
@@ -286,6 +289,7 @@
 | ------- |
 | [0100-same-tree](https://github.com/noahegger/Leetcode/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/noahegger/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/noahegger/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0226-invert-binary-tree](https://github.com/noahegger/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/noahegger/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 ## Binary Search Tree
