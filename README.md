@@ -41,6 +41,7 @@
 | [0739-daily-temperatures](https://github.com/noahegger/Leetcode/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/noahegger/Leetcode/tree/master/0792-binary-search) |
 | [0860-design-circular-queue](https://github.com/noahegger/Leetcode/tree/master/0860-design-circular-queue) |
+| [1036-rotting-oranges](https://github.com/noahegger/Leetcode/tree/master/1036-rotting-oranges) |
 ## Hash Table
 |  |
 | ------- |
@@ -212,6 +213,7 @@
 | [0226-invert-binary-tree](https://github.com/noahegger/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0542-01-matrix](https://github.com/noahegger/Leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/noahegger/Leetcode/tree/master/0733-flood-fill) |
+| [1036-rotting-oranges](https://github.com/noahegger/Leetcode/tree/master/1036-rotting-oranges) |
 ## Union Find
 |  |
 | ------- |
@@ -229,6 +231,7 @@
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/noahegger/Leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0542-01-matrix](https://github.com/noahegger/Leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/noahegger/Leetcode/tree/master/0733-flood-fill) |
+| [1036-rotting-oranges](https://github.com/noahegger/Leetcode/tree/master/1036-rotting-oranges) |
 ## Backtracking
 |  |
 | ------- |
