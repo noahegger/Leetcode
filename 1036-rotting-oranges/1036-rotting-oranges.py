@@ -52,3 +52,10 @@ class Solution:
                     minutes = max(minutes, min_steps)
         
         return minutes
+
+        # Overall, inefficient, but the solution is intuitive. We end up revisiting cells often
+        # After thought/alternative: Can we map cells to # of steps from rotten and store this information
+        # in a grid? Minesweep type inference? Is there some mathematical structure?
+
+        # Most popular solution is to queue rotten and count fresh. Then process directions, keep track of visited cells, 
+        # and decrement fresh
