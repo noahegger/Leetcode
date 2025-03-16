@@ -23,10 +23,10 @@ class Solution:
 
             while q:
                 steps += 1
-                for _ in range(len(q)):
-
+                for _ in range(len(q)): # This is a key part; without it, we can 
+                # overcount if the first direction chosen is not the shortest
+                # Otherwise stated, the existing queue needs to be processed on the same time footing
                     row, col = q.popleft()
-
                     for dr, dc in dirs:
                         r = row + dr
                         c = col + dc
