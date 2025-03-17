@@ -15,18 +15,9 @@ class Solution:
             for p in course_map[course]:
                 if not dfs(p, visited):
                     return False
-                    
+
             course_map[course] = []
             return True
-
-            # visited.add(course)
-            # for prereq in course_map[course]:
-            #     if prereq not in visited:
-            #         if not course_map[prereq]:
-            #             return True
-            #         dfs(prereq, visited)
-            #     else:
-            #         return False
         
         visited = set()
         course_map = defaultdict(list)
